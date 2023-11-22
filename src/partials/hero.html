@@ -1,0 +1,46 @@
+<section class="hero">    
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="./images/Мода.png" alt="Мода" class="hero-image"> 
+        <div class="hero-content">
+          <p class="season-title">Весна — літо 2024</p>
+          <h1 class="hero-title">WITH LOVE,<br>TO YOU</h1>
+          <a href="./catalog.html" class="hero-button">Перейти в каталог</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/Стиль.png" alt="Стиль" class="hero-image two"> 
+        <div class="hero-content">
+          <p class="season-title">Весна — літо 2024</p>
+          <h1 class="hero-title">WITH LOVE,<br>TO YOU</h1>
+          <a href="./catalog.html" class="hero-button">Перейти в каталог</a>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>    
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>

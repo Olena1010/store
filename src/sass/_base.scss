@@ -1,0 +1,88 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #2D2D2D; 
+  background-color: linear-gradient(180deg, #B7B09E 0%, #B7B09E 24.43%, #85776A 100%);
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+[href] {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.header-hero{
+  background: linear-gradient(180deg, #B7B09E 0%, #B7B09E 24.43%, #85776A 100%);
+  width: 1600px;
+  height: 954px;
+}
+@media screen and (min-width: 428px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+}
+// @media screen and (min-width: 1024px) {
+//   .container {
+//     width: 1024px;
+//   }
+// }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1175px;
+  }
+}
+
+// .swiper-container {
+//   position: relative;
+//   width: 95%;
+//   margin: 0 auto;
+// }
