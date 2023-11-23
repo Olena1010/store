@@ -5,8 +5,8 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  color: #2D2D2D; 
-  background-color: linear-gradient(180deg, #B7B09E 0%, #B7B09E 24.43%, #85776A 100%);
+  color: #2D2D2D;
+   
 }
 
 img {
@@ -51,6 +51,7 @@ p {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  width: 1175px;
   
 }
 
@@ -58,6 +59,7 @@ p {
   background: linear-gradient(180deg, #B7B09E 0%, #B7B09E 24.43%, #85776A 100%);
   width: 1600px;
   height: 954px;
+  overflow: hidden;
 }
 @media screen and (min-width: 428px) {
   .container {
@@ -81,8 +83,62 @@ p {
   }
 }
 
-// .swiper-container {
-//   position: relative;
-//   width: 95%;
-//   margin: 0 auto;
-// }
+// Gradient
+
+@keyframes mainTitleAnimation {
+  0%, 100% {
+    transform: translateY(0) scale(1) rotate(0);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(-50px) scale(0.8) rotate(45deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-100px) scale(0.6) rotate(90deg);
+    opacity: 0.2;
+  }
+  75% {
+    transform: translateY(-50px) scale(0.8) rotate(45deg);
+    opacity: 0.5;
+  }
+}
+
+.gradient-container {
+  width: 50vw;
+  height: 130vh;
+  background: radial-gradient(ellipse,rgb(36, 25, 18, 1), transparent);
+  top: -50%;
+  left: -28%;
+  z-index: 11;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(50px);
+  animation: mainTitleAnimation 10s ease-in-out infinite;
+}
+
+.circle-container {
+  width: 32vw;
+  height: 75vh;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7), transparent);
+  filter: blur(40px);
+  top: -10%;
+  left: 40%;
+  z-index: 10;
+  border-radius: 50%;
+  position: absolute;
+  animation: mainTitleAnimation 10s ease-in-out infinite 2s;
+}
+
+.gradient-container-right {
+  width: 40vw;
+  height: 100vh;
+  bottom: -20%;
+  left: 60%;
+  background: radial-gradient(circle, rgb(36, 25, 18, 0.5), transparent);
+  filter: blur(50px);
+  z-index: 10;
+  border-radius: 50%;
+  position: absolute;
+  animation: mainTitleAnimation 10s ease-in-out infinite 2s;
+}
