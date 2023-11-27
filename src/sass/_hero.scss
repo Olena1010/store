@@ -32,7 +32,7 @@ display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 20; 
+  z-index: 100; 
   }
 
 .season-title {
@@ -75,7 +75,8 @@ margin-bottom: 25px;
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
     cursor: pointer;
-    z-index: 20; 
+    z-index: 20;
+    position: relative; 
   }
 
  .swiper-button-prev, .swiper-button-next {
