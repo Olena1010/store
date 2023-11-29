@@ -1,0 +1,82 @@
+.footer {
+   box-shadow: 0px -2px 1px rgba(46, 47, 66, 0.08),
+            0px -1px 1px rgba(46, 47, 66, 0.16), 
+            0px -1px 6px rgba(46, 47, 66, 0.08);
+     margin-top: 120px; 
+}
+.footer-container {
+    display: flex;    
+}
+.logo-footer {
+// left: 50%; 
+// transform: translateX(-50%);
+margin-top: 41px;
+position: absolute;
+width: 115px;
+height: 54px;
+flex-shrink: 0;
+background: url('../images/logo.png'), lightgray 50% / cover no-repeat;
+background-color: inherit;
+padding-bottom: 0;
+@media screen and (min-width: 768px)  {
+width: 182px;
+height: 86.081px;
+flex-shrink: 0;
+}
+} 
+.footer-list {
+    display: flex;
+    gap: 146px;
+    margin-left: 256px;
+    margin-top: 70px;
+}
+.footer-title{
+color: #2D2D2D;
+font-family:  'Montserrat', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 113.9%; /* 20.502px */
+letter-spacing: 0.54px;
+}
+.footer-list-subtitle {
+margin-top: 27px;
+}
+.footer-list-item a {
+text-decoration: none;
+width: 149px;
+color: #2D2D2D;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 28.8px */
+}
+
+.footer-list-item:hover  {
+color: rgba(111, 111, 111, 0.62);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%;
+text-decoration-line: underline;
+}
+[href] {
+  text-decoration: none;
+}
+.footer-item {
+
+width: 628px;
+color: #CECECE;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 105%; /* 14.7px */
+margin-left: auto;
+margin-right: auto;
+margin-top: 125px;
+padding-bottom: 67px;
+}
