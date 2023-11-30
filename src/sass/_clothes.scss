@@ -1,0 +1,17 @@
+.clothes {
+  display: flex;
+  gap: 130px;  
+}
+.clothes-list {
+color: #2D2D2D;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 230%;
+letter-spacing: 0.48px;
+
+}
+.clothes-item:hover {
+    text-decoration-line: underline;
+}

@@ -19,7 +19,6 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
 margin-bottom: 0; 
 
 @media screen and (min-width: 768px)  {
@@ -71,15 +70,15 @@ flex-shrink: 0;
    color: #2D2D2D;   
 }
 
- input {
+ .input {
   border: none;
   outline: none;
   background: inherit;
 }
 
 .form-container {
-    display: flex;
-    align-items: center;
+ display: flex;
+ align-items: center;
  border-bottom: 1px solid #2D2D2D;
  margin-top: 50px;
  margin-bottom: 4px; 
@@ -88,7 +87,7 @@ flex-shrink: 0;
  background: inherit;
 }
 
-input::placeholder {
+.input::placeholder {
 color: #6F6F6F;
 font-family: "Montserrat", sans-serif;
 font-size: 16px;
