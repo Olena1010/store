@@ -1,0 +1,134 @@
+{
+  "dresses": {
+    "preview": [
+      {
+        "id": 100,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/87/89/8987/images/40759/40759.750x0.webp",
+        "name": "Плаття Hyssop black",
+        "price": 1895,
+        "description": "Плаття-футляр чорне, вечірнє. Тканина велюр з мереживом"
+      },
+      {
+        "id": 101,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/88/89/8988/images/40764/40764.750x0.webp",
+        "name": "Плаття Hyssop white",
+        "price": 1895,
+        "description": "Плаття-футляр біле, вечірнє. Тканина велюр з мереживом"
+      },
+      {
+        "id": 102,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/58/89/8958/images/51420/51420.750x0.webp",
+        "name": "Плаття Wallot black",
+        "price": 1995,
+        "description": "Плаття-футляр чорне, вечірнє. Плательна тканина"
+      },
+      {
+        "id": 103,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/03/13/11303/images/51966/51966.750x0.webp",
+        "name": "Плаття Exochorda white",
+        "price": 1950,
+        "description": "Плаття-сорочка біле. Тканина віскоза, котон."
+      },
+      {
+        "id": 104,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/79/03/10379/images/47810/47810.750x0.webp",
+        "name": "Плаття Begonia leopard",
+        "price": 1890,
+        "description": "Плаття-сорочка мультиколор. Тканина віскоза, котон."
+      },
+      {
+        "id": 105,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/97/96/9697/images/44572/44572.750x0.webp",
+        "name": "Плаття Aralia red wine",
+        "price": 1850,
+        "description": "Плаття-футляр червоне вино, вечірнє. Тканина трикотаж"
+      },
+      {
+        "id": 106,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/18/15/11518/images/54387/54387.750x0.webp",
+        "name": "Плаття Aurora beige",
+        "price": 11400,
+        "description": "Плаття коктейльне бежеве. Тканина віскоза, котон."
+      },
+      {
+        "id": 107,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/68/67/6768/images/28292/28292.750x0.webp",
+        "name": "Плаття Tatin black",
+        "price": 1750,
+        "description": "Плаття вечірнє чорне. Тканина сітка, трикотаж."
+      },
+      {
+        "id": 108,
+        "img": "https://art-de-luxe.com.ua/wa-data/public/shop/responsiveimages/images/wa-data/public/shop/products/60/89/8960/images/40662/40662.750x0.webp",
+        "name": "Плаття Cranberry blue",
+        "price": 1850,
+        "description": "Плаття-футляр голубе, вечірнє. Тканина трикотаж."
+      }
+    ],
+    "all": [
+      {
+        "id": 100,
+        "img": "",
+        "name": "",
+        "price": 33200,
+        "description": ""
+      },
+      {
+        "id": 101,
+        "img": "",
+        "name": "",
+        "price": 21200,
+        "description": ""
+      },
+      {
+        "id": 102,
+        "img": "",
+        "name": "",
+        "price": 6800,
+        "description": ""
+      },
+      {
+        "id": 103,
+        "img": "",
+        "name": "",
+        "price": 33600,
+        "description": ""
+      },
+      {
+        "id": 104,
+        "img": "",
+        "name": "",
+        "price": 27200,
+        "description": ""
+      },
+      {
+        "id": 105,
+        "img": "",
+        "name": "",
+        "price": 9600,
+        "description": ""
+      },
+      {
+        "id": 106,
+        "img": "",
+        "name": "",
+        "price": 11400,
+        "description": ""
+      },
+      {
+        "id": 107,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      },
+      {
+        "id": 108,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      }
+    ]
+  }
+}
