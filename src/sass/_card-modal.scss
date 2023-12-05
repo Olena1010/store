@@ -24,10 +24,6 @@
     // width: 279px;
   }
 }
-body.dark-theme .card-modal {
-  background-color: var(--primary-bg-color-dark);
-  border: 2px solid var(--title-text-color-theme-dark);
-}
 .card-modal-img {
   height: 408px;
   border-radius: 8px;
@@ -46,21 +42,15 @@ body.dark-theme .card-modal {
 
 .card-modal-title {
   margin-bottom: 4px;
-  // font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  // line-height: calc(16 / 18);
   letter-spacing: -0.04em;
   color: #111111;
   @media screen and (min-width: 768px) {
     margin-bottom: 14px;
     font-size: 24px;
-    // line-height: 28px;
   }
-}
-body.dark-theme .card-modal-title {
-  color: var(--title-text-color-theme-dark);
 }
 .card-modal-price {
   font-family: 'Roboto', sans-serif;
@@ -98,9 +88,6 @@ body.dark-theme .card-modal-title {
     margin-bottom: 20px;
   }
 }
-body.dark-theme .card-modal-desc {
-  color: var(--title-text-color-theme-dark);
-}
 .icon-card-modal-list {
   margin-bottom: 40px;
   display: flex;
@@ -111,10 +98,6 @@ body.dark-theme .card-modal-desc {
     justify-content: center;
   }
 }
-body.dark-theme .icon-card-modal-list {
-  fill: var(--title-text-color-theme-dark);
-}
-
 .icon-card-modal {
   display: block;
   width: 24px;
@@ -123,7 +106,7 @@ body.dark-theme .icon-card-modal-list {
 }
 .icon-card-modal:hover,
 .icon-card-modal:focus {
-  fill: var(--accent-color);
+  fill:  #85776A;
 }
 
 .home-cards-item {
@@ -143,7 +126,7 @@ body.dark-theme .icon-card-modal-list {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #111111;
-  border: 2px solid var(--accent-color);
+  border: 2px solid  #85776A;
   border-radius: 40px;
   cursor: pointer;
   transition: background-color var(--main-transition),
@@ -155,7 +138,7 @@ body.dark-theme .icon-card-modal-list {
 }
 .card-modal-btn:hover,
 .card-modal-btn:focus {
-  background-color: var(--accent-color);
+  background-color:  #85776A;
   color: #ffffff;
 }
 .card-modal-btn.js-add {
@@ -199,6 +182,7 @@ body.dark-theme .card-modal-buy {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  fill: black;
   @media screen and (min-width: 768px) {
     top: 31px;
     right: 31px;
@@ -207,10 +191,11 @@ body.dark-theme .card-modal-buy {
 .icon-card-modal-close {
   width: 14px;
   height: 14px;
+  fill: black;
 }
 .icon-card-modal-close:hover,
 .icon-card-modal-close:focus {
-  fill: var(--accent-color);
+  fill:  #85776A;
   transition: var(--animation);
 }
 body.dark-theme .icon-card-modal-close {
@@ -218,7 +203,7 @@ body.dark-theme .icon-card-modal-close {
 }
 body.dark-theme .icon-card-modal-close:hover,
 body.dark-theme .icon-card-modal-close:focus {
-  fill: var(--accent-color);
+  fill:  #85776A;
   transition: var(--animation);
 }
 .js-add::after {

@@ -16,18 +16,18 @@ box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
 cursor: pointer;
 flex-basis: calc((100% - 20px) / 2);
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+// .visually-hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+//   white-space: nowrap;
+//   clip-path: inset(100%);
+//   clip: rect(0 0 0 0);
+//   overflow: hidden;
+// }
 .js-target {
 padding: 0px 16px 16px 16px;
 }
