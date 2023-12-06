@@ -1,0 +1,134 @@
+{
+  "trench": {
+    "preview": [
+      {
+        "id": 100,
+        "img": "https://images.prom.ua/3988229979_w640_h640_3988229979.jpg",
+        "name": "Пальто-тренч жіноче шерстяне сіре Marshal Wolf",
+        "price": 10320,
+        "description": "ПАЛЬТО-ТРЕНЧ ЖІНОЧЕ ШЕРСТЯНЕ СІРЕ MARSHAL WOLF MKMO-162"
+      },
+         {
+        "id": 101,
+        "img": "https://images.prom.ua/4031343351_palto-zhinoche-sherstyane.jpg",
+        "name": "Пальто жіноче шерстяне в клітинку коричневе Modna KAZKA ",
+        "price": 10980,
+        "description": "ПАЛЬТО ЖІНОЧЕ ШЕРСТЯНЕ В КЛІТИНКУ КОРИЧНЕВЕ MODNA KAZKA MKCR222-2"
+      },
+      {
+        "id": 102,
+        "img": "https://images.prom.ua/3998209227_palto-zhinoche-bazove.jpg",
+        "name": "Пальто жіноче базове довге бежеве modna kazka",
+        "price": 6800,
+        "description": "ПАЛЬТО ЖІНОЧЕ БАЗОВЕ ДОВГЕ БЕЖЕВЕ MODNA KAZKA MKTRG0561-2"
+      },
+      {
+        "id": 103,
+        "img": "https://images.prom.ua/3337675157_zhinoche-palto-dizajnerske.jpg",
+        "name": "Жіноче пальто дизайнерське бежеве довге вовняне калейдоскоп modna kazka",
+        "price": 8600,
+        "description": "ЖІНОЧЕ ПАЛЬТО ДИЗАЙНЕРСЬКЕ БЕЖЕВЕ ДОВГЕ ВОВНЯНЕ КАЛЕЙДОСКОП MODNA KAZKA MKSH2729-2"
+      },
+      {
+        "id": 104,
+        "img": "",
+        "name": "",
+        "price": 27200,
+        "description": ""
+      },
+      {
+        "id": 105,
+        "img": "",
+        "name": "",
+        "price": 9600,
+        "description": ""
+      },
+      {
+        "id": 106,
+        "img": "",
+        "name": "",
+        "price": 11400,
+        "description": ""
+      },
+      {
+        "id": 107,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      },
+      {
+        "id": 108,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      }
+    ],
+    "all": [
+      {
+        "id": 100,
+        "img": "",
+        "name": "",
+        "price": 33200,
+        "description": ""
+      },
+      {
+        "id": 101,
+        "img": "",
+        "name": "",
+        "price": 21200,
+        "description": ""
+      },
+      {
+        "id": 102,
+        "img": "",
+        "name": "",
+        "price": 6800,
+        "description": ""
+      },
+      {
+        "id": 103,
+        "img": "",
+        "name": "",
+        "price": 33600,
+        "description": ""
+      },
+      {
+        "id": 104,
+        "img": "",
+        "name": "",
+        "price": 27200,
+        "description": ""
+      },
+      {
+        "id": 105,
+        "img": "",
+        "name": "",
+        "price": 9600,
+        "description": ""
+      },
+      {
+        "id": 106,
+        "img": "",
+        "name": "",
+        "price": 11400,
+        "description": ""
+      },
+      {
+        "id": 107,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      },
+      {
+        "id": 108,
+        "img": "",
+        "name": "",
+        "price": 10500,
+        "description": ""
+      }
+    ]
+  }
+}
