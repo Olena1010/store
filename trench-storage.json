@@ -31,38 +31,38 @@
       },
       {
         "id": 104,
-        "img": "",
-        "name": "",
-        "price": 27200,
-        "description": ""
+        "img": "https://images.prom.ua/3998307042_palto-zhinoche-dovge.jpg",
+        "name": "Пальто жіноче довге до підлоги зелене прямого силуету демісезонне modna kazka",
+        "price": 7200,
+        "description": "ПАЛЬТО ЖІНОЧЕ ДОВГЕ ДО ПІДЛОГИ ЗЕЛЕНЕ ПРЯМОГО СИЛУЕТУ ДЕМІСЕЗОННЕ MODNA KAZKA MKV7138-1"
       },
       {
         "id": 105,
-        "img": "",
-        "name": "",
+        "img": "https://images.prom.ua/3328154126_zhinoche-palto-bezheve.jpg",
+        "name": "Жіноче пальто бежеве довге реліз modna kazka",
         "price": 9600,
-        "description": ""
+        "description": "ЖІНОЧЕ ПАЛЬТО БЕЖЕВЕ ДОВГЕ РЕЛІЗ MODNA KAZKA MKSH2723-1"
       },
       {
         "id": 106,
-        "img": "",
-        "name": "",
+        "img": "https://images.prom.ua/3382887404_zhinoche-palto-v.jpg",
+        "name": "Жіноче пальто в клітинку голубе спрінг modna kazka",
         "price": 11400,
-        "description": ""
+        "description": "ЖІНОЧЕ ПАЛЬТО В КЛІТИНКУ ГОЛУБЕ СПРІНГ MODNA KAZKA MKSH2614-1"
       },
       {
         "id": 107,
-        "img": "",
-        "name": "",
+        "img": "https://images.prom.ua/2656921751_puhovik-zhinochij-zimovij.jpg",
+        "name": "Пуховик жіночий зимовий довгий бронзовий marshal wolf",
         "price": 10500,
-        "description": ""
+        "description": "ПУХОВИК ЖІНОЧИЙ ЗИМОВИЙ ДОВГИЙ БРОНЗОВИЙ MARSHAL WOLF MKMO-86"
       },
       {
         "id": 108,
-        "img": "",
-        "name": "",
+        "img": "https://images.prom.ua/3337797638_zhinoche-palto-dizajnerske.jpg",
+        "name": "Жіноче пальто дизайнерське синє довге вовняне калейдоскоп modna kazka",
         "price": 10500,
-        "description": ""
+        "description": "ЖІНОЧЕ ПАЛЬТО ДИЗАЙНЕРСЬКЕ СИНЄ ДОВГЕ ВОВНЯНЕ КАЛЕЙДОСКОП MODNA KAZKA MKSH2729-1"
       }
     ],
     "all": [
