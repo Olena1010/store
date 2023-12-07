@@ -1,5 +1,5 @@
 import icon from '../images/symbol.svg';
-// import image from '../images/empty-cart.png';
+
 
 // if (window.location.pathname === '/shopping-cart.html') {
 //   refs.headerHomeBtn.classList.remove('current');
