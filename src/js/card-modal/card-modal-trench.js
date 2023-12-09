@@ -1,7 +1,7 @@
 import { createMarkup } from './modal-markup';
 import { trench } from '../../../trench-storage.json';
 
-const { preview } = trench;
+const { all } = trench;
 const basketArr = JSON.parse(localStorage.getItem('products')) ?? [];
 
 const modal = document.querySelector('.js-trench-list');

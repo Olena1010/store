@@ -1,6 +1,6 @@
 {
   "trench": {
-    "preview": [
+    "all": [
       {
         "id": 100,
         "img": "https://images.prom.ua/3988229979_w640_h640_3988229979.jpg",
@@ -63,72 +63,14 @@
         "name": "Жіноче пальто дизайнерське синє довге вовняне калейдоскоп modna kazka",
         "price": 10500,
         "description": "ЖІНОЧЕ ПАЛЬТО ДИЗАЙНЕРСЬКЕ СИНЄ ДОВГЕ ВОВНЯНЕ КАЛЕЙДОСКОП MODNA KAZKA MKSH2729-1"
-      }
-    ],
-    "all": [
-      {
-        "id": 100,
-        "img": "",
-        "name": "",
-        "price": 33200,
-        "description": ""
-      },
-      {
-        "id": 101,
-        "img": "",
-        "name": "",
-        "price": 21200,
-        "description": ""
-      },
-      {
-        "id": 102,
-        "img": "",
-        "name": "",
-        "price": 6800,
-        "description": ""
-      },
-      {
-        "id": 103,
-        "img": "",
-        "name": "",
-        "price": 33600,
-        "description": ""
-      },
-      {
-        "id": 104,
-        "img": "",
-        "name": "",
-        "price": 27200,
-        "description": ""
-      },
-      {
-        "id": 105,
-        "img": "",
-        "name": "",
-        "price": 9600,
-        "description": ""
-      },
-      {
-        "id": 106,
-        "img": "",
-        "name": "",
-        "price": 11400,
-        "description": ""
-      },
-      {
-        "id": 107,
-        "img": "",
-        "name": "",
-        "price": 10500,
-        "description": ""
       },
       {
         "id": 108,
-        "img": "",
-        "name": "",
+        "img": "https://images.prom.ua/3337797638_zhinoche-palto-dizajnerske.jpg",
+        "name": "Жіноче пальто дизайнерське синє довге вовняне калейдоскоп modna kazka",
         "price": 10500,
-        "description": ""
+        "description": "ЖІНОЧЕ ПАЛЬТО ДИЗАЙНЕРСЬКЕ СИНЄ ДОВГЕ ВОВНЯНЕ КАЛЕЙДОСКОП MODNA KAZKA MKSH2729-1"
       }
-    ]
+    ]   
   }
 }
