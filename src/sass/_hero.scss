@@ -2,38 +2,70 @@
 margin-left: auto;
 margin-right: auto;
 background-size: cover;
+width: 320px;
+height: 864px;
+position: relative;
+overflow: hidden;
+@media screen and (min-width: 1200px) {
 width: 1600px;
 min-height: 864px;
- position: relative;
-  overflow: hidden;
+}
 }
 
 .hero-image {
-  width: 100%;
+width: 320px;
+height: 605px;
+@media screen and (min-width: 1200px) {
+  // width: 100%;
   // height: 100%;
-  // width: 1600px;
-  // height: 864px;
-  // object-fit: contain; 
+  width: 1600px;
+  height: 864px;
+  object-fit: cover; 
   position: absolute;
-  // object-position: 0% 20%;
+  object-position: 0% 20%;
+}
 }
 
 
+@media only screen and (max-width: 768px) {
+    .swiper-button-prev, .swiper-button-next, .swiper-pagination {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        transform: translate3d(0, 0, 0);
+    }
+
+    .swiper-slide {
+        flex-shrink: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Опціонально: показати тільки перший слайд */
+    .swiper-slide:not(:first-child) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
 .swiper-container{
 display: flex;
  width: 100%;
   height: 100%;
 }
+}
+@media screen and (min-width: 1200px) {
   .hero-content {
   text-align: center;
   margin-left: 385px;   
-  margin-top: 318px;
+  // margin-top: 318px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100; 
-  }
+  }}
 
 .season-title {
 color: #FFF;

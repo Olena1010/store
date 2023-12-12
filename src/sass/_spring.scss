@@ -1,12 +1,20 @@
-.spring {
-    padding-top: 120px;
-    width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
+ .spring {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;}
+  @media screen and (min-width: 1200px) {
+  .spring {
+  width: 1600px;
+  padding-top: 120px;
+  }}   
+
+@media screen and (min-width: 1200px) {
+    .spring-text {
+    display: flex;}
 }
-.spring-text {
-    display: flex;
-}
+
 .collection-title {
 width: 328px;
 color: #2D2D2D;
@@ -14,7 +22,7 @@ font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
-line-height: 113.9%; /* 28.475px */
+line-height: 113.9%; 
 letter-spacing: 0.75px;
 margin-right: 124px;
 }
@@ -25,7 +33,7 @@ font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 140%; /* 22.4px */
+line-height: 140%; 
 }
 .collection-link {
 margin-top: 20px;
@@ -34,9 +42,33 @@ font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 140%; /* 22.4px */
+line-height: 140%;
 text-decoration-line: underline;
 }
  .buy {
 margin-top: 120px;
+}
+
+
+.img-collection-spring-one {
+width: 222px;
+height: 290px;
+}
+@media screen and (min-width: 1200px) {
+  .img-collection-spring-one {
+width: 669px;
+height: 694px;
+}  
+}
+
+
+.img-collection-spring-two {
+width: 222px;
+height: 290px;
+}
+@media screen and (min-width: 1200px) {
+.img-collection-spring-two {
+width: 470px;
+height: 694px;
+}
 }

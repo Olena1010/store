@@ -1,17 +1,11 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-// .basicLightbox {
-//   height: 100%;
-// }
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   margin: 0;
   padding: 0;
-  color: #2D2D2D;
-  width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-  
+  color: #2D2D2D;  
 }
 
 img {
@@ -55,39 +49,23 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px;
-  width: 1175px;
-  
-}
+  padding-right: 15px;  
+@media screen and (min-width: 428px) {
+ width: 428px;}
+@media screen and (min-width: 1200px) {
+ width: 1175px;
+}}
 
+@media screen and (min-width: 1200px) {
 .header-hero{
   background: linear-gradient(180deg, #B7B09E 0%, #B7B09E 24.43%, #85776A 100%);
   width: 1600px;
-  height: 954px;
-  // overflow: hidden;
-  
+  height: 954px;  
 }
-@media screen and (min-width: 428px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
-@media screen and (min-width: 768px) {
-  .container {
-    width: 766px;
-  }
-}
-// @media screen and (min-width: 1024px) {
-//   .container {
-//     width: 1024px;
-//   }
-// }
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1175px;
-  }
-}
+
+
+
 
 // Gradient
 
