@@ -97,3 +97,32 @@ line-height: normal;
  text-indent: 5px; 
 }
 
+//////     Mobile-menu   /////
+
+
+@media screen and (min-width: 768px) {
+    .btn-menu-hamburger {
+    display: none;
+  }
+}
+
+  @media screen and (max-width: 767.98px) {
+    .site-nav {
+    display: none;
+  }
+  .form-container {
+    display: none;
+  }
+  .icon {
+     display: none;
+  }
+  .btn-menu-hamburger {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    line-height: 0;
+  }
+  .icon-menu-hamburger {
+    stroke: var(--title-text-color);
+  }
+}

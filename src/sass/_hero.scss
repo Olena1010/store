@@ -5,8 +5,9 @@ background-size: cover;
 width: 320px;
 height: 864px;
 position: relative;
-overflow: hidden;
+overflow: hidden;}
 @media screen and (min-width: 1200px) {
+.hero {  
 width: 1600px;
 min-height: 864px;
 }
@@ -14,10 +15,9 @@ min-height: 864px;
 
 .hero-image {
 width: 320px;
-height: 605px;
+height: 605px;}
 @media screen and (min-width: 1200px) {
-  // width: 100%;
-  // height: 100%;
+.hero-image {
   width: 1600px;
   height: 864px;
   object-fit: cover; 
@@ -26,47 +26,36 @@ height: 605px;
 }
 }
 
-
-@media only screen and (max-width: 768px) {
-    .swiper-button-prev, .swiper-button-next, .swiper-pagination {
-        display: none;
-    }
-
-    .swiper-wrapper {
-        transform: translate3d(0, 0, 0);
-    }
-
-    .swiper-slide {
-        flex-shrink: 0;
-        width: 100%;
-        height: auto;
-    }
-
-    /* Опціонально: показати тільки перший слайд */
-    .swiper-slide:not(:first-child) {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-.swiper-container{
-display: flex;
- width: 100%;
-  height: 100%;
-}
-}
-@media screen and (min-width: 1200px) {
-  .hero-content {
-  text-align: center;
-  margin-left: 385px;   
-  // margin-top: 318px;
+ .hero-content {
   position: absolute;
-  top: 50%;
+  text-align: center;
+    top: 50%;
   left: 50%;
+ }
+     .hero-button {
+    padding: 19px 68px;
+    color: #2D2D2D;
+    border: 1px solid #FFF;
+    background: #FFF;
+    height: 56px;
+    width: 300px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.9%;
+    letter-spacing: 0.48px;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 20;
+    position: relative; }
+    
+@media screen and (min-width: 1200px) {
+  .hero-content {  
+  margin-left: 385px;   
   transform: translate(-50%, -50%);
   z-index: 100; 
-  }}
-
+}
 .season-title {
 color: #FFF;
 font-family:'Montserrat', sans-serif;
@@ -76,9 +65,7 @@ font-weight: 400;
 line-height: 113.9%; 
 letter-spacing: 0.75px;
 margin-bottom: 25px;
-    
-  }
-
+}
   .hero-title {
 color: #FFF;
 text-align: center;
@@ -91,8 +78,7 @@ letter-spacing: 1.89px;
 text-transform: uppercase;
 margin-bottom: 25px;
   }
-
-  .hero-button {
+    .hero-button {
     padding: 19px 68px;
     color: #2D2D2D;
     border: 1px solid #FFF;
@@ -110,7 +96,14 @@ margin-bottom: 25px;
     z-index: 20;
     position: relative; 
   }
+}
 
+@media screen and (min-width: 1200px) {
+.swiper-container{
+display: flex;
+ width: 100%;
+  height: 100%;
+}}
  .swiper-button-prev, .swiper-button-next {
   width: 100px;
   height: 100px;
@@ -142,3 +135,23 @@ margin-bottom: 25px;
      background: #E5E5E5;
 }
 
+@media only screen and (max-width: 768px) {
+    .swiper-button-prev, .swiper-button-next, .swiper-pagination {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        transform: translate3d(0, 0, 0);
+    }
+
+    .swiper-slide {
+        flex-shrink: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Опціонально: показати тільки перший слайд */
+    .swiper-slide:not(:first-child) {
+        display: none;
+    }
+}
