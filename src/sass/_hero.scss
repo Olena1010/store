@@ -151,8 +151,6 @@ display: flex;
     }
 
     /* Опціонально: показати тільки перший слайд */
-
-    ///////
     .swiper-slide:not(:first-child) {
         display: none;
     }
