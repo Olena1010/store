@@ -18,7 +18,7 @@ function onClick(evt) {
   }
 
   function findProduct(productId) {
-    return preview.find(({ id }) => id === productId);
+    return all.find(({ id }) => id === productId);
   }
 
   const addProduct = document.querySelector('#js-card-modal-btn');
