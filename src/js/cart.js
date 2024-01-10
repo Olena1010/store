@@ -1,4 +1,4 @@
-import icon from '../images/symbol.svg';
+import icon from '../images/icon.svg';
 
 
 // if (window.location.pathname === '/shopping-cart.html') {

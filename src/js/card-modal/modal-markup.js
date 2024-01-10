@@ -1,6 +1,6 @@
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basicLightbox.min.css';
-import icon from '../../images/symbol.svg';
+import icon from '../../images/icon.svg';
 
 function createMarkup(product) {
   const instance = basicLightbox.create(
@@ -9,7 +9,7 @@ function createMarkup(product) {
     <div class='card-modal-details'>
         <p class="card-modal-title">${product.name}</p>
         <p class="card-modal-price">${product.price} грн.</p>
-        <p class="card-modal-text">Якщо є якісь питання, дзвоніть або пишіть😉:</p>
+        <p class="card-modal-text">Якщо є якісь питання, дзвоніть або пишіть:</p>
         <ul class='icon-card-modal-list'>
         <li>
             <a href="tel:+11(000)111-11-11" class="auth-nav-link link">+11 (000) 111-11-11</a>
